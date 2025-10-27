@@ -1,4 +1,30 @@
 
+const headerList = document.getElementById('header__list');
+const barBtn = document.getElementById('bar__btn');
+
+barBtn.addEventListener('click', (e) => {
+  headerList.classList.toggle('active');
+
+  e.stopPropagation();
+});
+
+headerList.addEventListener('click', (e) => {
+    e.stopPropagation();
+});
+
+document.addEventListener("click", () => {
+    headerList.classList.remove('active');
+})
+
+
+
+
+
+
+
+
+
+
 // <!-- ====== SCROLL TO TOP SCRIPT ====== -->
 var scrollToTopBtn = document.querySelector(".scrollToTopBtn")
 var rootElement = document.documentElement

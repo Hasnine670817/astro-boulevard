@@ -30,7 +30,32 @@ For -  Laptop/Mini Desktop - Screen
 
 @media screen and (min-width: 1200px) and (max-width: 1399px) {
 
-        
+    /* 
+    -------------------------
+    header-area start
+    -------------------------
+    */
+
+    .header-logo img {
+        max-width: 130px;
+    }
+
+    .header-list li a {
+        font-size: 15px;
+    }
+
+    .login-btn {
+        font-size: 15px;
+        padding: 8px 20px;
+        border-radius: 140px;
+    }
+
+    .login-btn img {
+        max-width: 20px;
+    }
+
+
+    
    
 	
 }
@@ -44,6 +69,15 @@ For - Mini - Laptop - Screen
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
 
+    /* 
+    -------------------------
+    header-area start
+    -------------------------
+    */
+
+    .header-logo img {
+        max-width: 130px;
+    }
 	
 }
 
@@ -57,7 +91,15 @@ For - Ipad - Screen
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
 
+    /* 
+    -------------------------
+    header-area start
+    -------------------------
+    */
 
+    .header-logo img {
+        max-width: 130px;
+    }
 
 
 }
@@ -76,7 +118,23 @@ For - Mobile - Screen
 
 @media screen and (max-width: 767px) {
             
+    /* 
+    -------------------------
+    header-area start
+    -------------------------
+    */
 
+    .header-area {
+        padding: 16px;
+    }
+
+    .header-area nav {
+        padding: 10px;
+    }
+
+    .header-logo img {
+        max-width: 96px;
+    }
     
 }
 
@@ -92,5 +150,44 @@ For - Mobile - Screen
 
 @media screen and (max-width: 575px) {
 
+
+}
+
+@media screen and (max-width: 1199px) {
+
+    .header-list {
+        position: fixed;
+        max-width: 100%;
+        width: 280px;
+        background-color: var(--white-color);
+        left: -100%;
+        top: 0;
+        height: 100vh;
+        overflow-y: auto;
+        padding: 30px 16px;
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+        transition: 0.3s all ease-in-out;
+    }
+
+    .header-list.active {
+        left: 0;
+        transition: 0.3s all ease-in-out;
+    }
+
+    .header-list li a {
+        display: block;
+        width: 100%;
+        background-color: var(--white-smoke);
+        padding: 8px 14px;
+        border-radius: 10px;
+        margin: 0 0 6px;
+        font-size: 14px;
+    }
+
+    .header-list li a:hover,
+    .header-list li a.active {
+        background-color: var(--gold-color);
+        color: var(--white-color);
+    }
 
 }

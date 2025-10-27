@@ -1,9 +1,27 @@
-/* ---Roboto-Inter-Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+/* ---Poppins-Inter-Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root {
-	--white-colour: #FFFFFF;
-	--black-colour: #000000;
+	--white-color: #FFFFFF;
+	--black-color: #000000;
+	--black-color2: #111827;
+	--light-gray: #E9E9E9;
+	--white-smoke: #F8F8F8;
+	--neutral-color2: #585D64;
+	--gold-color: #CAAD59;
+	--green-haze: #11A75C;
+
+
+	/* font-family */
+	--font-inter: "Inter", sans-serif;
+	--font-poppins: "Poppins", sans-serif;
+}
+
+body {
+	font-family: var(--font-inter);
+	background-color: var(--white-smoke);
+	min-height: 100vh;
+	color: var(--white-color);
 }
 
 img {
@@ -17,6 +35,28 @@ h4,
 h5,
 h6 {
 	margin: 0;
+	font-family: var(--font-poppins);
+}
+
+h1 {
+	font-size: 72px;
+	line-height: 85px;
+	font-weight: 700;
+	letter-spacing: -2.3px;
+}
+
+h4 {
+	font-size: 36px;
+	line-height: 45px;
+	font-weight: 600;
+	letter-spacing: -1px;
+}
+
+.text-base {
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: -0.3px;
+	font-weight: 500;
 }
 
 p,
@@ -41,7 +81,6 @@ a {
 	transition: 0.3s all ease-in-out;
 	-webkit-transition: 0.3s all ease-in-out;
 	-moz-transition: 0.3s all ease-in-out;
-	font-family: "Roboto", serif;
 }
 
 button {
@@ -77,6 +116,16 @@ select {
 	-webkit-appearance: none;
 }
 
+.container {
+	padding: 0 24px;
+}
+
+@media (min-width: 1400px) {
+	.container {
+		max-width: 1368px;
+	}
+}
+
 
 
 
@@ -109,11 +158,74 @@ select {
 }
 
 
+
+
 /* 
 -------------------------
-header-banner-area start
+header-area start
 -------------------------
 */
+
+.header-area {
+	padding: 20px;
+}
+
+.header-area nav {
+	padding: 16px 16px;
+	background-color: var(--white-color);
+	border-radius: 60px;
+	border: 1px solid black;
+	max-width: 1560px;
+	margin: 0 auto;
+}
+
+.header-list {
+	gap: 30px;
+}
+
+.header-list li a {
+	font-size: 18px;
+	line-height: 27px;
+	letter-spacing: -0.3px;
+	color: var(--neutral-color2);
+	font-weight: 500;
+}
+
+.header-list li a.active,
+.header-list li a:hover {
+	color: var(--gold-color);
+}
+
+.login-btn {
+	padding: 13px 28px;
+	background-color: var(--gold-color);
+	border-radius: 152px;
+	color: var(--white-color);
+	display: flex;
+	align-items: center;
+	gap: 6px;
+}
+
+.login-btn:hover {
+	background-color: var(--green-haze);
+}
+
+.bar-btn {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: var(--gold-color);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: var(--white-color);
+}
+
+.bar-btn:hover {
+	background-color: var(--green-haze);
+}
+
+
 
 
 /* sm-header-area */
@@ -128,7 +240,6 @@ header-banner-area start
 }
 
 .bar-close-btn {
-	color: var(--black-colour);
 	font-size: 24px;
 }
 
@@ -141,7 +252,6 @@ header-banner-area start
 	font-size: 24px;
 	position: absolute;
 	right: 20px;
-	color: var(--white-colour);
 }
 
 .header-menu-link > ul > li > a {
@@ -149,14 +259,12 @@ header-banner-area start
 	padding: 10px 12px;
 	border-radius: 8px;
 	margin: 0 0 2px;
-	color: var(--white-colour) !important;
 	display: block;
 }
 
 .header-menu-link > ul > li > a:hover,
 .header-menu-link > ul > li > a.active {
 	background-color: #120C0E2B;
-	color: var(--white-colour) !important;
 }
 
 

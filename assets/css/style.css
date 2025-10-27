@@ -91,6 +91,13 @@ h4 {
 	font-weight: 500;
 }
 
+.text-sm {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 150%;
+	color: var(--white-color);
+}
+
 p,
 figure {
 	margin: 0;
@@ -484,4 +491,65 @@ call-rate-table-area start
 
 .call-rate-table tr:nth-child(odd) td {
 	background-color: var(--ivory-color);
+}
+
+
+
+
+
+/* 
+-------------------
+footer-area
+-------------------
+*/
+
+.footer-area {
+	background: linear-gradient(0deg, #6F5F31 0%, #D5B65E 100%);
+	border-radius: 100px 100px 0 0;
+	padding: 80px 0;
+}
+
+.footer-logo {
+	margin-bottom: 32px;
+}
+
+.main-links-div,
+.links-ul {
+	gap: 34px;
+}
+
+.links-ul li a {
+	color: var(--white-color);
+}
+
+.links-ul li a:hover {
+	text-decoration: underline;
+}
+
+.social-links {
+	gap: 12px;
+	margin: 32px 0 80px;
+}
+
+.social-links li a:hover {
+	opacity: 0.8;
+	transform: scale(1.1);
+}
+
+.bottom-area {
+	padding: 32px 0 0;
+	border-top: 1px solid #FFFFFF33;
+}
+
+.bottom-area ul {
+	column-gap: 24px;
+	row-gap: 12px;
+}
+
+.bottom-area ul li a {
+	text-decoration: underline;
+}
+
+.bottom-area ul li a:hover {
+	text-decoration: none;
 }

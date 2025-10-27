@@ -255,6 +255,24 @@ For - Mini - Laptop - Screen
         line-height: 22px;
         letter-spacing: -0.2px;
     }
+
+
+
+
+    /* 
+    -------------------
+    footer-area
+    -------------------
+    */
+
+    .footer-area {
+        padding: 60px 0 30px;
+        border-radius: 50px 50px 0 0;
+    }
+
+    .footer-logo img {
+        max-width: 360px;
+    }
 	
 }
 
@@ -456,6 +474,41 @@ For - Ipad - Screen
     }
 
 
+
+
+    /* 
+    -------------------
+    footer-area
+    -------------------
+    */
+
+    .footer-area {
+        padding: 60px 0 30px;
+        border-radius: 40px 40px 0 0;
+    }
+
+    .footer-logo img {
+        max-width: 260px;
+    }
+
+    .main-links-div,
+    .links-ul {
+        gap: 20px;
+    }
+
+    .links-ul li a {
+        font-size: 14px;
+    }
+
+    .social-links {
+        margin: 32px 0 60px;
+    }
+
+    .bottom-area ul {
+        margin: 16px 0 0;
+    }
+
+
 }
 
 
@@ -622,7 +675,8 @@ For - Mobile - Screen
     */
 
     .call-rate-table-area {
-        padding: 30px 0 60px;
+        background-color: transparent;
+        padding: 0;
     }
 
     .call-rate-table {
@@ -648,6 +702,8 @@ For - Mobile - Screen
         flex-wrap: wrap;
         gap: 32px;
         flex-direction: column-reverse;
+        background-color: var(--white-color);
+        padding: 30px 24px 60px;
     }
 
     .call-rate-table-grid p {
@@ -657,6 +713,50 @@ For - Mobile - Screen
         font-family: var(--font-inter);
         font-weight: 400;
     }
+
+
+
+
+
+    /* 
+    -------------------
+    footer-area
+    -------------------
+    */
+
+    .footer-area {
+        padding: 60px 0 30px;
+        border-radius: 40px 40px 0 0;
+    }
+
+    .footer-logo img {
+        max-width: 200px;
+    }
+
+    .main-links-div {
+        justify-content: flex-start !important;
+        max-width: 360px;
+        margin: 0 auto;
+    }
+
+    .links-ul {
+        display: block !important;
+        text-align: start;
+    }
+
+    .links-ul li a {
+        margin-bottom: 16px;
+    }
+
+    .social-links {
+        margin: 16px 0 40px;
+    }
+
+    .bottom-area ul {
+        margin: 16px 0 0;
+    }
+
+
         
 }
 
@@ -669,6 +769,19 @@ For - Mobile - Screen
         font-size: 48px;
         line-height: 60px;
         letter-spacing: -0.5px;
+    }
+
+     .box__card {
+        padding: 42px;
+    }
+
+    
+}
+
+@media screen and (min-width: 390px) and (max-width: 767px) {
+    
+    .links-ul2 {
+        padding-left: 35px;
     }
     
 }
@@ -688,6 +801,11 @@ For - Mobile - Screen
 
     .container {
         padding: 0 20px;
+    }
+
+    .call-rate-table-grid {
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
 }

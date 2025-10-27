@@ -30,6 +30,16 @@ For -  Laptop/Mini Desktop - Screen
 
 @media screen and (min-width: 1200px) and (max-width: 1399px) {
 
+    h1 {
+        font-size: 60px;
+    }
+
+    .text-xl {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+
     /* 
     -------------------------
     header-area start
@@ -55,6 +65,18 @@ For -  Laptop/Mini Desktop - Screen
     }
 
 
+
+    /* 
+    -------------------------
+    banner-area start
+    -------------------------
+    */
+
+    .features-area {
+        margin-top: -112px;
+    }
+
+
     
    
 	
@@ -69,6 +91,22 @@ For - Mini - Laptop - Screen
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
 
+    h1 {
+        font-size: 48px;
+        line-height: 63px;
+        letter-spacing: -0.5px;
+    }
+
+    .text-xl {
+        font-size: 15px;
+        line-height: 22px;
+        letter-spacing: 0.2px;
+    }
+
+    .container {
+        padding: 0 20px;
+    }
+
     /* 
     -------------------------
     header-area start
@@ -77,6 +115,26 @@ For - Mini - Laptop - Screen
 
     .header-logo img {
         max-width: 130px;
+    }
+
+
+
+    /* 
+    -------------------------
+    banner-area start
+    -------------------------
+    */
+
+    .banner-content {
+        padding: 270px 0 280px;
+    }
+
+    .features-area {
+        margin-top: -110px;
+    }
+
+    .banner-content a {
+        padding: 14px 24px;
     }
 	
 }
@@ -91,6 +149,24 @@ For - Ipad - Screen
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
 
+
+    h1 {
+        font-size: 48px;
+        line-height: 63px;
+        letter-spacing: -0.5px;
+    }
+
+    .text-xl {
+        font-size: 13px;
+        line-height: 22px;
+        letter-spacing: 0.2px;
+    }
+
+    .container {
+        padding: 0 20px;
+    }
+
+
     /* 
     -------------------------
     header-area start
@@ -99,6 +175,50 @@ For - Ipad - Screen
 
     .header-logo img {
         max-width: 130px;
+    }
+
+
+
+
+    /* 
+    -------------------------
+    banner-area start
+    -------------------------
+    */
+
+    .banner-area {
+        margin-top: -115px;
+    }
+
+    .banner-content {
+        padding: 322px 0 224px;
+    }
+
+    .banner-content a {
+        padding: 12px 24px;
+        text-align: center;
+        margin-top: 35px;
+    }
+
+    .banner-carousel .owl-dots {
+        bottom: 155px;
+    }
+
+    .features-area {
+        padding: 24px 0;
+        margin-top: -92px;
+    }
+
+    .main-features-box {
+        row-gap: 16px;
+    }
+
+    .features-box {
+        gap: 10px;
+    }
+
+    .features-box img {
+        max-width: 30px;
     }
 
 
@@ -117,6 +237,20 @@ For - Mobile - Screen
 
 
 @media screen and (max-width: 767px) {
+
+    h1 {
+        font-size: 32px;
+        line-height: 42px;
+        letter-spacing: -0.5px;
+        text-transform: initial !important;
+    }
+
+    .text-xl {
+        font-size: 13px;
+        line-height: 22px;
+        letter-spacing: 0.2px;
+    }
+
             
     /* 
     -------------------------
@@ -135,6 +269,51 @@ For - Mobile - Screen
     .header-logo img {
         max-width: 96px;
     }
+
+
+
+    /* 
+    -------------------------
+    banner-area start
+    -------------------------
+    */
+
+    .banner-area {
+        margin-top: -95px;
+    }
+
+    .banner-content {
+        padding: 372px 0 224px;
+    }
+
+    .banner-content a {
+        padding: 12px 24px;
+        display: block;
+        text-align: center;
+        margin-top: 24px;
+    }
+
+    .banner-carousel .owl-dots {
+        bottom: 155px;
+    }
+
+    .features-area {
+        padding: 24px 0;
+    }
+
+    .main-features-box {
+        flex-wrap: wrap;
+        row-gap: 16px;
+    }
+
+    .features-box {
+        gap: 10px;
+        width: 50%;
+    }
+
+    .features-box img {
+        max-width: 30px;
+    }
     
 }
 
@@ -148,8 +327,21 @@ For - Mobile - Screen
 }
 
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 389px) {
 
+    .text-xl {
+        font-size: 13px;
+        line-height: 18px;
+        letter-spacing: 0.2px;
+    }
+
+    .features-box {
+        padding: 0 2px;
+    }
+
+    .container {
+        padding: 0 20px;
+    }
 
 }
 
@@ -167,6 +359,7 @@ For - Mobile - Screen
         padding: 30px 16px;
         box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
         transition: 0.3s all ease-in-out;
+        z-index: 1000;
     }
 
     .header-list.active {
@@ -188,6 +381,18 @@ For - Mobile - Screen
     .header-list li a.active {
         background-color: var(--gold-color);
         color: var(--white-color);
+    }
+
+    .login-btn {
+        width: 100%;
+        justify-content: center;
+        margin: 20px 0 0;
+        font-size: 15px;
+        padding: 9px 28px;
+    }
+
+    .login-btn img {
+        max-width: 20px;
     }
 
 }

@@ -77,6 +77,19 @@ For -  Laptop/Mini Desktop - Screen
     }
 
 
+
+
+    /* 
+    -------------------------
+    cards-area start
+    -------------------------
+    */
+
+    .box__card {
+        padding: 30px;
+    }
+
+
     
    
 	
@@ -135,6 +148,41 @@ For - Mini - Laptop - Screen
 
     .banner-content a {
         padding: 14px 24px;
+    }
+
+
+
+
+    /* 
+    -------------------------
+    cards-area start
+    -------------------------
+    */
+
+    .cards-area {
+        padding: 80px 0;
+    }
+
+    .box__card {
+        padding: 16px;
+    }
+
+    .box__card span {
+        width: 70px;
+        height: 70px;
+        font-size: 40px;
+        line-height: 58px;
+        letter-spacing: -1.57px;
+    }
+
+    .box__card h4 {
+        margin: 16px 0 11px;
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .box__card p {
+        font-size: 14px;
     }
 	
 }
@@ -219,6 +267,42 @@ For - Ipad - Screen
 
     .features-box img {
         max-width: 30px;
+    }
+
+
+
+
+
+    /* 
+    -------------------------
+    cards-area start
+    -------------------------
+    */
+
+    .cards-area {
+        padding: 60px 0;
+    }
+
+    .box__card {
+        padding: 16px;
+    }
+
+    .box__card span {
+        width: 70px;
+        height: 70px;
+        font-size: 40px;
+        line-height: 58px;
+        letter-spacing: -1.57px;
+    }
+
+    .box__card h4 {
+        margin: 16px 0 11px;
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .box__card p {
+        font-size: 14px;
     }
 
 
@@ -314,7 +398,37 @@ For - Mobile - Screen
     .features-box img {
         max-width: 30px;
     }
-    
+
+
+
+
+
+    /* 
+    -------------------------
+    cards-area start
+    -------------------------
+    */
+
+    .cards-area {
+        padding: 60px 0;
+    }
+
+    .box__card {
+        padding: 16px;
+    }
+
+    .box__card span {
+        width: 80px;
+        height: 80px;
+        font-size: 49px;
+        line-height: 58px;
+        letter-spacing: -1.57px;
+    }
+
+    .box__card h4 {
+        margin: 26px 0 8px;
+    }
+        
 }
 
 
@@ -322,7 +436,11 @@ For - Mobile - Screen
 
 @media screen and (min-width: 576px) and (max-width: 767px) {
     
-
+    h1 {
+        font-size: 48px;
+        line-height: 60px;
+        letter-spacing: -0.5px;
+    }
     
 }
 
@@ -394,5 +512,8 @@ For - Mobile - Screen
     .login-btn img {
         max-width: 20px;
     }
+
+
+    
 
 }

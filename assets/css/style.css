@@ -7,6 +7,7 @@
 	--black-color2: #111827;
 	--light-gray: #E9E9E9;
 	--white-smoke: #F8F8F8;
+	--neutral-color1: #112336;
 	--neutral-color2: #585D64;
 	--gold-color: #CAAD59;
 	--green-haze: #11A75C;
@@ -330,3 +331,65 @@ banner-area start
 }
 
 
+
+
+
+/* 
+-------------------------
+cards-area start
+-------------------------
+*/
+
+.cards-area {
+	background-color: var(--white-color);
+	padding: 120px 0;
+}
+
+.cards-area .row {
+		--bs-gutter-y: 16px;
+	}
+
+@media (min-width: 1200px) {
+	.cards-area .row {
+		--bs-gutter-x: 30px;
+	}
+}
+
+.box__card {
+	padding: 40px;
+	border-radius: 16px;
+	background-color: var(--white-smoke);
+	border: 1px solid var(--light-gray);
+	height: 100%;
+}
+
+.box__card span {
+	width: 116px;
+	height: 116px;
+	border-radius: 50%;
+	background-color: var(--gold-color);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 72px;
+	font-weight: 500;
+	color: var(--white-color);
+	letter-spacing: -2.3px;
+	font-family: var(--font-poppins);
+	margin: 0 auto;
+	text-align: center;
+}
+
+.box__card h4 {
+	font-size: 24px;
+	line-height: 36px;
+	color: var(--neutral-color1);
+	font-weight: 600;
+	letter-spacing: -0.4px;
+	margin: 32px 0 8px;
+}
+
+.box__card p {
+	color: var(--neutral-color2);
+	font-weight: 400;
+}

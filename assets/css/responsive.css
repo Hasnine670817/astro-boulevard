@@ -130,6 +130,20 @@ For -  Laptop/Mini Desktop - Screen
 
 
 
+
+
+    /* 
+    =============================
+    about-detail-page.html
+    =============================
+    */
+
+    .advisors__details__box {
+        gap: 70px;
+    }
+
+
+
     
 
 
@@ -354,6 +368,35 @@ For - Mini - Laptop - Screen
     .call-now-btn, .design_a {
         padding: 11px 20px;
     }
+
+
+
+    /* 
+    =============================
+    about-detail-page.html
+    =============================
+    */
+
+    .advisors__details__box {
+        gap: 30px;
+    }
+
+    .advisors__information__img img {
+        width: 230px;
+    }
+
+    .pin-price-box > div {
+        padding: 10px;
+    }
+
+    .pin-price-box > div > div {
+        gap: 25px;
+    }
+
+    .pin-price-box {
+        gap: 16px;
+    }
+
 	
 }
 
@@ -660,6 +703,242 @@ For - Ipad - Screen
 
     .call__link {
         margin-top: 12px;
+    }
+
+
+
+
+
+
+    /* 
+    =============================
+    about-detail-page.html
+    =============================
+    */
+
+    .advisors-details-area {
+        padding: 50px 0 35px;
+    }
+
+    .advisors__details__box {
+        padding: 25px;
+        display: block;
+    }
+
+    .advisors__information__title h4 {
+        text-align: start !important;
+    }
+
+    .advisors__information__img img {
+        width: 100%;
+        height: 220px;
+    }
+
+    .rating-ul2 li i, .rating-ul2 li span {
+        font-size: 13px;
+    }
+
+    .rating-ul2 {
+        margin-top: 4px;
+    }
+
+    .pin-price-box > div {
+        margin-bottom: 12px;
+        padding: 7px 10px;
+    }
+
+    .pin-price-box {
+        padding: 16px 0 0;
+        gap: 20px;
+    }
+
+    .pin-price-box > div p {
+        font-size: 17px;
+    }
+
+    .advisors__information__title h4 {
+        font-size: 30px;
+    }
+
+    .notice-content {
+        font-size: 18px;
+    }
+
+    .contact-btns-area {
+        width: 100%;
+        padding: 24px 0 0;
+        row-gap: 16px;
+    }
+
+
+
+    /* 
+    ------------------------
+    consultant__section
+    ------------------------
+    */
+
+    .consultant__box,
+    .review__box,
+    .common__box,
+    .client__reviews__box {
+        padding: 25px;
+    }
+
+    .consultant__box p {
+        margin-bottom: 16px;
+        font-size: 15px;
+    }
+
+    .consultant__box p.title-p {
+        font-size: 24px;
+    }
+
+
+
+
+    /* 
+    --------------------
+    review__box__area
+    --------------------
+    */
+
+    .review__box__area {
+        padding: 50px 0;
+    }
+
+    .review__box > .d-flex {
+        display: block !important;
+    }
+
+    .review__box h5 {
+        width: 100%;
+        padding: 12px 0 0;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .review__box__area h4 {
+        font-size: 24px;
+        margin-top: 16px;
+        line-height: 36px;
+        text-align: start !important;
+    }
+
+
+    /* 
+    -----------------------
+    email__offers__area
+    -----------------------
+    */
+
+    .email__offers__box h4 {
+        text-align: start;
+        margin-bottom: 16px;
+    }
+
+    .email__offers__table2 td {
+        display: block;
+        width: 100%;
+        padding: 16px 16px 16px !important;
+        font-size: 15px;
+    }
+
+    .email__offers__table2 tr td:last-child {
+        padding-top: 0 !important;
+    }
+
+    .email__offers__table2 td div {
+        justify-content: space-between !important;
+    }
+
+    .show-btn {
+        padding: 10px 20px;
+    }
+
+
+
+    /* 
+    -----------------------
+    qualifications-area
+    -----------------------
+    */
+
+    .qualifications-area {
+        padding: 50px 0;
+    }
+
+    .qualifications__box p {
+        margin: 16px 0 0;
+    }
+
+
+
+
+    /* 
+    ----------------------
+    focus-area
+    ----------------------
+    */
+
+    .focus__btn__area {
+        justify-content: center;
+        padding-top: 16px;
+        gap: 12px;
+    }
+
+    .focus__btn__area li a {
+        padding: 10px 16px;
+    }
+
+
+
+    /* 
+    ----------------------
+    availability-area
+    ----------------------
+    */
+
+    .availability-area {
+        padding: 50px 0;
+    }
+
+    .availability-table tr td {
+        padding: 16px 0 !important;
+        height: auto;
+        font-size: 14px;
+    }
+
+    .availability-table tr td:first-child {
+        padding-left: 16px !important;
+    }
+
+    .availability-table tr td:last-child {
+        padding-right: 16px !important;
+    }
+
+
+
+    /* 
+    ---------------------
+    all-reviews-area
+    ---------------------
+    */
+
+    .all-reviews-area {
+        padding: 60px 0;
+    }
+
+    .client__reviews__box > .d-flex {
+        display: block !important;
+    }
+
+    .rating-ul3 {
+        margin-top: 16px;
+    }
+
+    .client__reviews__box > p {
+        margin-top: 24px;
     }
 
 
@@ -983,6 +1262,247 @@ For - Mobile - Screen
 
     .bottom-area ul {
         margin: 16px 0 0;
+    }
+
+
+
+
+
+
+    /* 
+    =============================
+    about-detail-page.html
+    =============================
+    */
+
+    .advisors-details-area {
+        padding: 50px 0 35px;
+    }
+
+    .advisors__details__box {
+        padding: 16px;
+        display: block;
+    }
+
+    .advisors__information,
+    .advisors__information__title,
+    .pin-price-box {
+        display: block !important;
+    }
+
+    .advisors__information__title h4 {
+        text-align: start !important;
+    }
+
+    .advisors__information__img img {
+        width: 100%;
+        height: 266px;
+    }
+
+    .rating-ul2 li i, .rating-ul2 li span {
+        font-size: 13px;
+    }
+
+    .rating-ul2 {
+        margin-top: 4px;
+    }
+
+    .pin-price-box > div {
+        margin-bottom: 12px;
+        padding: 7px 10px;
+    }
+
+    .pin-price-box {
+        padding: 16px 0 0;
+    }
+
+    .pin-price-box > div p {
+        font-size: 17px;
+    }
+
+    .advisors__information__title h4 {
+        font-size: 30px;
+    }
+
+    .notice-content {
+        font-size: 18px;
+    }
+
+    .contact-btns-area {
+        width: 100%;
+        padding: 24px 0 0;
+        row-gap: 16px;
+    }
+
+
+
+    /* 
+    ------------------------
+    consultant__section
+    ------------------------
+    */
+
+    .consultant__box,
+    .review__box,
+    .common__box,
+    .client__reviews__box {
+        padding: 16px
+    }
+
+    .consultant__box p {
+        margin-bottom: 16px;
+        font-size: 15px;
+    }
+
+    .consultant__box p.title-p {
+        font-size: 24px;
+    }
+
+
+
+
+    /* 
+    --------------------
+    review__box__area
+    --------------------
+    */
+
+    .review__box__area {
+        padding: 50px 0;
+    }
+
+    .review__box > .d-flex {
+        display: block !important;
+    }
+
+    .review__box h5 {
+        width: 100%;
+        padding: 12px 0 0;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .review__box__area h4 {
+        font-size: 24px;
+        margin-top: 16px;
+        line-height: 36px;
+        text-align: start !important;
+    }
+
+
+    /* 
+    -----------------------
+    email__offers__area
+    -----------------------
+    */
+
+    .email__offers__box h4 {
+        text-align: start;
+        margin-bottom: 16px;
+    }
+
+    .email__offers__table2 td {
+        display: block;
+        width: 100%;
+        padding: 16px 16px 16px !important;
+        font-size: 15px;
+    }
+
+    .email__offers__table2 tr td:last-child {
+        padding-top: 0 !important;
+    }
+
+    .email__offers__table2 td div {
+        justify-content: space-between !important;
+    }
+
+    .show-btn {
+        padding: 10px 20px;
+    }
+
+
+
+    /* 
+    -----------------------
+    qualifications-area
+    -----------------------
+    */
+
+    .qualifications-area {
+        padding: 50px 0;
+    }
+
+    .qualifications__box p {
+        margin: 16px 0 0;
+    }
+
+
+
+
+    /* 
+    ----------------------
+    focus-area
+    ----------------------
+    */
+
+    .focus__btn__area {
+        justify-content: center;
+        padding-top: 16px;
+        gap: 12px;
+    }
+
+    .focus__btn__area li a {
+        padding: 10px 16px;
+    }
+
+
+
+    /* 
+    ----------------------
+    availability-area
+    ----------------------
+    */
+
+    .availability-area {
+        padding: 50px 0;
+    }
+
+    .availability-table tr td {
+        padding: 16px 0 !important;
+        height: auto;
+        font-size: 14px;
+    }
+
+    .availability-table tr td:first-child {
+        padding-left: 16px !important;
+    }
+
+    .availability-table tr td:last-child {
+        padding-right: 16px !important;
+    }
+
+
+
+    /* 
+    ---------------------
+    all-reviews-area
+    ---------------------
+    */
+
+    .all-reviews-area {
+        padding: 60px 0;
+    }
+
+    .client__reviews__box > .d-flex {
+        display: block !important;
+    }
+
+    .rating-ul3 {
+        margin-top: 16px;
+    }
+
+    .client__reviews__box > p {
+        margin-top: 24px;
     }
 
 

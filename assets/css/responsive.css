@@ -142,6 +142,19 @@ For -  Laptop/Mini Desktop - Screen
         gap: 70px;
     }
 
+    .advisors-card-grid > div {
+        display: none;
+    }
+
+    .advisors-card-grid > div:nth-child(1),
+    .advisors-card-grid > div:nth-child(2),
+    .advisors-card-grid > div:nth-child(3),
+    .advisors-card-grid > div:nth-child(4),
+    .advisors-card-grid > div:nth-child(5),
+    .advisors-card-grid > div:nth-child(6) {
+        display: block;
+    }
+
 
 
     
@@ -345,6 +358,19 @@ For - Mini - Laptop - Screen
         display: block;
     }
 
+    .advisors-card-grid > div {
+        display: none;
+    }
+
+    .advisors-card-grid > div:nth-child(1),
+    .advisors-card-grid > div:nth-child(2),
+    .advisors-card-grid > div:nth-child(3),
+    .advisors-card-grid > div:nth-child(4),
+    .advisors-card-grid > div:nth-child(5),
+    .advisors-card-grid > div:nth-child(6) {
+        display: block;
+    }
+
     .advisors-area {
         padding: 80px 0
     }
@@ -395,6 +421,12 @@ For - Mini - Laptop - Screen
 
     .pin-price-box {
         gap: 16px;
+    }
+
+
+
+    #load-more-btn {
+        max-width: 95%;
     }
 
 	
@@ -941,6 +973,10 @@ For - Ipad - Screen
         margin-top: 24px;
     }
 
+    #load-more-btn {
+        max-width: 95%;
+    }
+
 
 }
 
@@ -1125,6 +1161,17 @@ For - Mobile - Screen
     .advisors-card-grid {
         grid-template-columns: repeat(1, 1fr);
         row-gap: 16px;
+    }
+
+    .advisors-card-grid > div {
+        display: none;
+    }
+
+    .advisors-card-grid > div:nth-child(1),
+    .advisors-card-grid > div:nth-child(2),
+    .advisors-card-grid > div:nth-child(3),
+    .advisors-card-grid > div:nth-child(4) {
+        display: block;
     }
 
     .advisors-title {

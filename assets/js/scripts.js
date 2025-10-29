@@ -41,52 +41,49 @@ document.addEventListener("click", () => {
 })
 
 
-
-
 // for (card)
 document.addEventListener("DOMContentLoaded", function () {
-  const cards = Array.from(document.querySelectorAll(".advisors__card"));
-  const loadMoreBtn = document.getElementById("load-more-btn");
+    const loadMoreBtn = document.getElementById("load-more-btn");
+    const advisorCards = document.querySelectorAll(".advisors-card-grid > .advisors__card");
 
-  function getVisibleCount() {
-    const width = window.innerWidth;
-    if (width >= 1400) return cards.length;
-    if (width >= 992) return 6;
-    return 4;
-  }
+    function getVisibleCount() {
+        if (window.innerWidth < 992) {
+            return 4;
+        } else if (window.innerWidth < 1200) {
+            return 6;
+        } else if (window.innerWidth < 1400) {
+            return 6;
+        } else {
+            return advisorCards.length;
+        }
+    }
 
-  let visibleCount = getVisibleCount();
-  let allShown = visibleCount >= cards.length;
+    let visibleCards = getVisibleCount();
 
-  function updateCards() {
-    cards.forEach((card, index) => {
-      card.style.display = index < visibleCount ? "block" : "none";
+    function showCards(count) {
+        advisorCards.forEach((card, index) => {
+            card.style.display = index < count ? "block" : "none";
+        });
+    }
+
+    showCards(visibleCards);
+
+    loadMoreBtn.addEventListener("click", function (e) {
+        e.preventDefault();
+        showCards(advisorCards.length);
+        loadMoreBtn.style.display = "none";
     });
 
-    // load more button visibility
-    loadMoreBtn.style.display = allShown ? "none" : "block";
-  }
-
-  // Initial load
-  updateCards();
-
-  // Load more click
-  loadMoreBtn.addEventListener("click", function (e) {
-    e.preventDefault();
-    visibleCount = cards.length;
-    allShown = true;
-    updateCards();
-  });
-
-  // Window resize
-  window.addEventListener("resize", function () {
-    if (!allShown) {
-      visibleCount = getVisibleCount();
-      allShown = visibleCount >= cards.length;
-      updateCards();
-    }
-  });
+    window.addEventListener("resize", function () {
+        const newVisible = getVisibleCount();
+        if (newVisible !== visibleCards) {
+            visibleCards = newVisible;
+            showCards(visibleCards);
+            loadMoreBtn.style.display = (visibleCards >= advisorCards.length) ? "none" : "block";
+        }
+    });
 });
+
 
 
 

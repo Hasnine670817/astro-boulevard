@@ -407,6 +407,10 @@ For - Mini - Laptop - Screen
         gap: 30px;
     }
 
+    .details__title {
+        font-size: 32px;
+    }
+
     .advisors__information__img img {
         width: 230px;
     }
@@ -755,6 +759,10 @@ For - Ipad - Screen
     .advisors__details__box {
         padding: 25px;
         display: block;
+    }
+
+    .details__title {
+        font-size: 32px;
     }
 
     .advisors__information__title h4 {
@@ -1329,6 +1337,10 @@ For - Mobile - Screen
     .advisors__details__box {
         padding: 16px;
         display: block;
+    }
+
+    .details__title {
+        font-size: 32px;
     }
 
     .advisors__information,

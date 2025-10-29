@@ -1047,6 +1047,16 @@ about-detail-page.html
 	gap: 100px;
 }
 
+.details__title {
+	color: var(--white-color);
+	position: absolute;
+	left: 50%;
+	top: -27px;
+	transform: translateX(-50%);
+	width: 100%;
+	text-align: center;
+}
+
 .advisors__information__img img {
 	width: 322px;
 	height: 277px;

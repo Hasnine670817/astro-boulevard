@@ -282,6 +282,18 @@ header-area start
 	background-color: var(--green-haze);
 }
 
+#close__btn {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	color: var(--gold-color);
+	font-size: 25px;
+}
+
+#close__btn:hover {
+	color: var(--green-haze);
+}
+
 
 
 
@@ -1045,16 +1057,6 @@ about-detail-page.html
 	display: flex;
 	align-items: center;
 	gap: 100px;
-}
-
-.details__title {
-	color: var(--white-color);
-	position: absolute;
-	left: 50%;
-	top: -27px;
-	transform: translateX(-50%);
-	width: 100%;
-	text-align: center;
 }
 
 .advisors__information__img img {

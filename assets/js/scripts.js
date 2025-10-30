@@ -25,6 +25,7 @@ $(document).ready(function () {
 
 const headerList = document.getElementById('header__list');
 const barBtn = document.getElementById('bar__btn');
+const closeBtn = document.getElementById('close__btn');
 
 barBtn.addEventListener('click', (e) => {
   headerList.classList.toggle('active');
@@ -39,6 +40,12 @@ headerList.addEventListener('click', (e) => {
 document.addEventListener("click", () => {
   headerList.classList.remove('active');
 })
+
+closeBtn.addEventListener("click", () => {
+  headerList.classList.remove('active');
+})
+
+
 
 
 // for (card)

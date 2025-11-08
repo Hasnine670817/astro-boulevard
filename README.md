@@ -29,7 +29,8 @@ The site presents trusted spiritual advisors, their profiles, ratings, and essen
 | Type | Technology |
 |------|-------------|
 | Markup | HTML5 |
-| Styling | CSS3, Bootstrap 5 | JavaScript | JQuery
+| Styling | CSS3, Bootstrap 5
+| Functionality | JavaScript, JQuery
 | Animation | AOS (Animate On Scroll) |
 | Icons | Font Awesome |
 | Fonts | Google Fonts |
